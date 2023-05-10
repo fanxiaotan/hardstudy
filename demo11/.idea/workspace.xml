@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea209447-9f67-4458-a4a0-e79234489e87" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2Ogvq3pMe0CRp85RZVGb42NmBhj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea209447-9f67-4458-a4a0-e79234489e87" name="Default Changelist" comment="" />
+      <created>1681995226284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681995226284</updated>
+      <workItem from="1681995228687" duration="2000" />
+      <workItem from="1681999196216" duration="370000" />
+      <workItem from="1682517239491" duration="10000" />
+      <workItem from="1682933202103" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1682933217448">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1682933217448" />
+    <state x="299" y="75" key="Maven.ArtifactSearchDialog" timestamp="1681999372865">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="75" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1681999372865" />
+    <state x="461" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1681999254310">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="461" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1681999254310" />
+    <state x="178" y="125" key="new project wizard" timestamp="1681999566687">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="125" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1681999566687" />
+  </component>
+</project>

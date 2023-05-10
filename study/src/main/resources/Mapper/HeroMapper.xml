@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.study.mapper.HeroMapper">
+    <select id="getHeros" resultType="com.example.study.entity.Hero">
+    SELECT * FROM hero
+    </select>
+
+    <select id="getHeroByID" resultType="com.example.study.entity.Hero">
+    SELECT * FROM hero where id=#{id}
+    </select>
+
+    <select id="getMaxHeroID" resultType="string">
+    SELECT max(id) FROM hero
+    </select>
+
+    <select id="judgeExists" resultType="int">
+    SELECT count(1) fROM hero where id =#{id} and name = #{name} and age=#{age}
+    </select>
+
+    <insert id="saveHero" keyProperty="id" parameterType="com.example.study.entity.Hero">
+insert into hero
+    values(#{id},#{name},#{age},#{level},#{intelligence},#{strength},#{agile})
+</insert>
+
+    <delete id="deleteHero" >
+delete from hero where id=#{id}
+</delete>
+
+    <update id="updateHero" parameterType="com.example.study.entity.Hero">
+update hero
+        <set >
+            <if test="name!= null and   name!= ''">
+                name =#{name}
+            </if>
+            <if test="age   != null and   age!= ''">
+                ,age =#{age}
+            </if>
+        </set>
+where  id=#{id}
+</update>
+
+
+    <select id="getUserHero" resultType="java.util.Map">
+        select a.id Hero_id,b.user_ID  from hero a,user_hero b where a.id = b.Hero_id
+
+    </select>
+</mapper>
